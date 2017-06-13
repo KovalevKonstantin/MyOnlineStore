@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f44e811d7beb495c9ab44d39d48b3313" Name="Diagram1">
+        <EntityTypeShape EntityType="OnlineShopDBModel.Bin" Width="1.5" PointX="8.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopDBModel.FeedBack" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopDBModel.Message" Width="1.5" PointX="8.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopDBModel.Product" Width="1.5" PointX="6.125" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopDBModel.ProductType" Width="1.5" PointX="2.125" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopDBModel.UserInformation" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="OnlineShopDBModel.FK_Bin_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopDBModel.FK_FeedBacks_UserInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopDBModel.FK_Messages_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopDBModel.FK_Products_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopDBModel.FK_Products_UserInformation" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
